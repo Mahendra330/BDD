@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-RestassuredTest">
+              <span class="suite-name border-passed">RestassuredTest</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-RestassuredTest">
+                    <span>D:\Software\Mywork\first_Project\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-RestassuredTest">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-RestassuredTest">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-RestassuredTest">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-RestassuredTest">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-RestassuredTest">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-RestassuredTest">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">5 methods,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-RestassuredTest" class="hide-methods passed suite-RestassuredTest"> (hide)</a> <!-- hide-methods passed suite-RestassuredTest -->
+                      <a href="#" panel-name="suite-RestassuredTest" class="show-methods passed suite-RestassuredTest"> (show)</a> <!-- show-methods passed suite-RestassuredTest -->
+                    </span>
+                    <div class="method-list-content passed suite-RestassuredTest">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RestassuredTest" title="RestassuredTest.DeleteDemo" hash-for-method="deteleTest">deteleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RestassuredTest" title="RestassuredTest.Demo1Get" hash-for-method="getWeatherTest">getWeatherTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RestassuredTest" title="RestassuredTest.PutDemo" hash-for-method="putTest">putTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RestassuredTest" title="RestassuredTest.UpdateDemo" hash-for-method="testPostData">testPostData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RestassuredTest" title="RestassuredTest.VerifyContent" hash-for-method="verifyingSingContent">verifyingSingContent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-RestassuredTest -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-RestassuredTest" class="panel RestassuredTest">
+          <div class="suite-RestassuredTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">RestassuredTest.UpdateDemo</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPostData">
+                  </a> <!-- testPostData -->
+                  <span class="method-name">testPostData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RestassuredTest-class-passed -->
+          <div class="suite-RestassuredTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">RestassuredTest.Demo1Get</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getWeatherTest">
+                  </a> <!-- getWeatherTest -->
+                  <span class="method-name">getWeatherTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RestassuredTest-class-passed -->
+          <div class="suite-RestassuredTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">RestassuredTest.VerifyContent</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyingSingContent">
+                  </a> <!-- verifyingSingContent -->
+                  <span class="method-name">verifyingSingContent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RestassuredTest-class-passed -->
+          <div class="suite-RestassuredTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">RestassuredTest.DeleteDemo</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deteleTest">
+                  </a> <!-- deteleTest -->
+                  <span class="method-name">deteleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RestassuredTest-class-passed -->
+          <div class="suite-RestassuredTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">RestassuredTest.PutDemo</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="putTest">
+                  </a> <!-- putTest -->
+                  <span class="method-name">putTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RestassuredTest-class-passed -->
+        </div> <!-- panel RestassuredTest -->
+        <div panel-name="test-xml-RestassuredTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Software\Mywork\first_Project\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;RestassuredTest&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;RestassuredTest1&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;RestassuredTest.Demo1Get&quot;/&gt;
+      &lt;class name=&quot;RestassuredTest.UpdateDemo&quot;/&gt;
+      &lt;class name=&quot;RestassuredTest.DeleteDemo&quot;/&gt;
+      &lt;class name=&quot;RestassuredTest.PutDemo&quot;/&gt;
+      &lt;class name=&quot;RestassuredTest.VerifyContent&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- RestassuredTest1 --&gt;
+&lt;/suite&gt; &lt;!-- RestassuredTest --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-RestassuredTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for RestassuredTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">RestassuredTest1 (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-RestassuredTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for RestassuredTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-RestassuredTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for RestassuredTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_RestassuredTest');
+function tableData_RestassuredTest() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(5);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'getWeatherTest')
+data.setCell(0, 2, 'RestassuredTest.Demo1Get')
+data.setCell(0, 3, 1531);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'deteleTest')
+data.setCell(1, 2, 'RestassuredTest.DeleteDemo')
+data.setCell(1, 3, 860);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testPostData')
+data.setCell(2, 2, 'RestassuredTest.UpdateDemo')
+data.setCell(2, 3, 498);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'putTest')
+data.setCell(3, 2, 'RestassuredTest.PutDemo')
+data.setCell(3, 3, 447);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyingSingContent')
+data.setCell(4, 2, 'RestassuredTest.VerifyContent')
+data.setCell(4, 3, 400);
+window.suiteTableData['RestassuredTest']= { tableData: data, tableDiv: 'times-div-RestassuredTest'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <div id="times-div-RestassuredTest">
+              </div> <!-- times-div-RestassuredTest -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-RestassuredTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for RestassuredTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-RestassuredTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-RestassuredTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">RestassuredTest.Demo1Get</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getWeatherTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">RestassuredTest.UpdateDemo</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClassUpdate</span>
+                <span class="method-start">1536 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testPostData</span>
+                <span class="method-start">1539 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">RestassuredTest.DeleteDemo</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">deteleTest</span>
+                <span class="method-start">2038 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">RestassuredTest.PutDemo</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">putBeforeTest</span>
+                <span class="method-start">2900 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">putTest</span>
+                <span class="method-start">2900 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">RestassuredTest.VerifyContent</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyingSingContent</span>
+                <span class="method-start">3351 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

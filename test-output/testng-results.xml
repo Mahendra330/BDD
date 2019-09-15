@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="RestassuredTest" duration-ms="3781" started-at="2019-09-15T00:10:44 CEST" finished-at="2019-09-15T00:10:47 CEST">
+    <groups>
+    </groups>
+    <test name="RestassuredTest1" duration-ms="3781" started-at="2019-09-15T00:10:44 CEST" finished-at="2019-09-15T00:10:47 CEST">
+      <class name="RestassuredTest.PutDemo">
+        <test-method status="PASS" signature="putTest()[pri:0, instance:RestassuredTest.PutDemo@7c29daf3]" name="putTest" duration-ms="447" started-at="2019-09-15T00:10:47 CEST" finished-at="2019-09-15T00:10:47 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putTest -->
+        <test-method status="PASS" signature="putBeforeTest()[pri:0, instance:RestassuredTest.PutDemo@7c29daf3]" name="putBeforeTest" is-config="true" duration-ms="0" started-at="2019-09-15T00:10:47 CEST" finished-at="2019-09-15T00:10:47 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putBeforeTest -->
+      </class> <!-- RestassuredTest.PutDemo -->
+      <class name="RestassuredTest.Demo1Get">
+        <test-method status="PASS" signature="getWeatherTest()[pri:0, instance:RestassuredTest.Demo1Get@30b8a058]" name="getWeatherTest" duration-ms="1531" started-at="2019-09-15T00:10:44 CEST" finished-at="2019-09-15T00:10:45 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getWeatherTest -->
+      </class> <!-- RestassuredTest.Demo1Get -->
+      <class name="RestassuredTest.UpdateDemo">
+        <test-method status="PASS" signature="beforeClassUpdate()[pri:0, instance:RestassuredTest.UpdateDemo@7494e528]" name="beforeClassUpdate" is-config="true" duration-ms="2" started-at="2019-09-15T00:10:45 CEST" finished-at="2019-09-15T00:10:45 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassUpdate -->
+        <test-method status="PASS" signature="testPostData()[pri:0, instance:RestassuredTest.UpdateDemo@7494e528]" name="testPostData" duration-ms="498" started-at="2019-09-15T00:10:45 CEST" finished-at="2019-09-15T00:10:46 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostData -->
+      </class> <!-- RestassuredTest.UpdateDemo -->
+      <class name="RestassuredTest.DeleteDemo">
+        <test-method status="PASS" signature="deteleTest()[pri:0, instance:RestassuredTest.DeleteDemo@4bbfb90a]" name="deteleTest" duration-ms="860" started-at="2019-09-15T00:10:46 CEST" finished-at="2019-09-15T00:10:47 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deteleTest -->
+      </class> <!-- RestassuredTest.DeleteDemo -->
+      <class name="RestassuredTest.VerifyContent">
+        <test-method status="PASS" signature="verifyingSingContent()[pri:1, instance:RestassuredTest.VerifyContent@9660f4e]" name="verifyingSingContent" duration-ms="400" started-at="2019-09-15T00:10:47 CEST" finished-at="2019-09-15T00:10:47 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingSingContent -->
+      </class> <!-- RestassuredTest.VerifyContent -->
+    </test> <!-- RestassuredTest1 -->
+  </suite> <!-- RestassuredTest -->
+</testng-results>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RestassuredTest">
+  <test name="RestassuredTest1">
+    <classes>
+      <class name="RestassuredTest.Demo1Get"/>
+      <class name="RestassuredTest.UpdateDemo"/>
+      <class name="RestassuredTest.DeleteDemo"/>
+      <class name="RestassuredTest.PutDemo"/>
+      <class name="RestassuredTest.VerifyContent"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
