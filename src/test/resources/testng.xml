@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RestassuredTest2">
+<listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="RestassuredTestdemo1">
+    <classes>
+      <class name="com.RestassuredTest.Demo1GetTest"/>
+      <class name="com.RestassuredTest.UpdateDemoTest"/>
+      /*<class name="com.RestassuredTest.DeleteDemoTest"/>
+      <class name="com.RestassuredTest.PutDemoTest"/>
+      <class name="com.RestassuredTest.VerifyContentTest"/>*/
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
